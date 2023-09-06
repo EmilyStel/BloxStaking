@@ -1,0 +1,26 @@
+{
+  "name": "bloxstaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.22.15",
+    "axios": "^1.5.0",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "node-fetch": "^3.3.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15"
+  }
+}
